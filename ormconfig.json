@@ -1,0 +1,15 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "viviana14",
+  "database": "progipix",
+  "entities": ["src/**/*.entity.ts"],
+  "synchronize": false,
+  "migrationsTableName": "migrations",
+  "migrations": ["src/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
